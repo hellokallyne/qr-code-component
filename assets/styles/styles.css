@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --dark-blue: hsl(218, 44%, 22%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --light-gray: hsl(212, 45%, 89%);
+  --light-slate-gray: hsla(219, 15%, 55%, 0.336);
+  --white: hsl(0, 0%, 100%);
+
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--light-gray);
+  display: grid;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  height: 100vh;
+  padding: 8.5rem 2.8rem;
+  place-items: center;
+}
+
+.qr-code-card {
+  background-color: var(--white);
+  border-radius: 2rem;
+  box-shadow: 0 6px 100px 0 var(--light-slate-gray);
+  width: min(91.46%, 320px);
+}
+
+.qr-code-card__header {
+  padding: 1.6rem;
+}
+
+.qr-code-card__image {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.qr-code-card__body {
+  padding: 0 3rem 4.4rem;
+  text-align: center;
+}
+
+.qr-code-card__title {
+  color: var(--dark-blue);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.1rem;
+}
+
+.qr-code-card__info {
+  color: var(--grayish-blue);
+  font-size: inherit;
+  font-weight: 400;
+}
