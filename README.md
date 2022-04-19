@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://hellokallyne.github.io/qr-code-component.git](https://hellokallyne.github.io/qr-code-component.git)
+- Solution URL: [https://github.com/hellokallyne/qr-code-component.git](https://github.com/hellokallyne/qr-code-component.git)
 - Live Site URL: [https://hellokallyne.github.io/qr-code-component](https://hellokallyne.github.io/qr-code-component)
 
 ## My process
